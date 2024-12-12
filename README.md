@@ -1,0 +1,1 @@
+This repository demonstrates an integer overflow bug in Solidity and its solution. The bug is present in the `foo()` function, which may cause an overflow if its inputs are large numbers. The `bar()` function is also affected because it relies on the output of `foo()`. The solution involves using SafeMath library to prevent overflows.
